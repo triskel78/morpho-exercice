@@ -1,0 +1,67 @@
+.table-container {
+    border-radius: 14px;
+    background-color: #14183D;
+    margin: 10px;
+}
+
+table {
+    border-radius: 14px;
+    border-collapse: collapse;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px rgba(248, 251, 255, 0.1);
+    overflow: hidden;
+}
+
+th, td {
+    text-align: left;
+    padding: 20px;
+}
+
+th {
+    font-weight: 400;
+}
+
+
+tr:nth-child(even) {
+    background-color: #0D0F27;
+}
+
+tr:hover:not(:first-child) {
+    background-color: rgb(30, 36, 92);
+}
+
+.user-apy {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #5B8CFF;
+}
+
+.morpho-rewards {
+    font-size: 8px;
+    border: 1px solid rgba(248, 251, 255, 0.1);
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin-top: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.asset-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.asset-logo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.morpho-rewards-logo {
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+}
